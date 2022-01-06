@@ -1,0 +1,8 @@
+#+TITLE: Telegram Bot for org-journal
+
+* Functionality
++ Add a new entry to [[https://github.com/bastibe/org-journal][org-journal]].
++ Add a future event to org-journal.
++ Send photos from phone to computer.
+
+* TODO Usage
