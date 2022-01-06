@@ -3,10 +3,13 @@ import telebot
 from pathlib import Path
 import re
 import requests
+import dotenv
+import os
 
+dotenv.load_dotenv()
 journal_dir = Path("~/rakuen/journal/").expanduser()
 picture_dir = journal_dir / "figs/"
-token = input("API token: ")
+token = os.getenv("TOKEN")
 bot = telebot.TeleBot(token)
 
 
